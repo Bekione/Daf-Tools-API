@@ -1870,39 +1870,39 @@ router.get('/', (req, res) => {
   res.json(data)
 });
 
-router.get('/api/hydrationtips', (req, res) => {
+router.get('/hydrationtips', (req, res) => {
     res.json(hydrationTips)
 })
 
-router.get('/api/bmitips', (req, res) => {
+router.get('/bmitips', (req, res) => {
   res.json(bmiTips)
 })
 
-router.get('/api/foodlists', (req, res) => {
+router.get('/foodlists', (req, res) => {
   res.json(foodLists)
 })
 
-router.get('/api/bloodinfo', (req, res) => {
+router.get('/bloodinfo', (req, res) => {
   res.json(bloodInfo)
 })
 
-router.get('/api/asset/zodiacimages', (req, res) => {
+router.get('/asset/zodiacimages', (req, res) => {
   res.json(zodiacImages)
 })
 
-router.get('/api/asset/images', (req, res) => {
+router.get('/asset/images', (req, res) => {
   res.json(images)
 })
 
-router.get('/api/zodiacsignsinfo', (req, res) => {
+router.get('/zodiacsignsinfo', (req, res) => {
   res.json(zodiacSignsInfo)
 })
 
-router.get('/api/zodiacuidata', (req, res) => {
+router.get('/zodiacuidata', (req, res) => {
   res.json(zodiacUiData)
 })
 
 
-app.use('/.netlify/functions/server', router)
+app.use('/.netlify/functions/api', router)
 
 module.exports.handler = serverless(app)
