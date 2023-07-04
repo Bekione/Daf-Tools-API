@@ -1857,10 +1857,10 @@ const zodiacUiData = [
   }
 ]
 const data = {
-  name: "daf_tools_api",
-  label: "Daf Tools API",
+  name: "daf-express-api",
+  label: "Daf Express API",
   version: '1.0,0',
-  url: "https://daf-tools-api-v1.netlify.app",
+  url: "https://daf-express-api.netlify.app/.netlify/functions/api",
   clientName: "Daf Tools",
   clientURL: "https://daf-tools.web.app/",
   message: "This is a simple api made to serve daf tools web app"
