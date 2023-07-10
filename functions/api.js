@@ -1856,6 +1856,60 @@ const zodiacUiData = [
     dark_color: "#73d673"
   }
 ]
+
+const carouselImages = [
+  {
+    name: 'desk_snap_health',
+    type: 'png',
+    path: 'https://ucarecdn.com/0387be18-4bac-4369-a2ba-eecdea2c6d15/desk_snap_health.png'
+  },
+  {
+    name: 'desk_snap_diet',
+    type: 'png',
+    path: 'https://ucarecdn.com/ddba98bf-f40d-4740-88f3-76b37769030a/desk_snap_diet.png'
+  },
+  {
+    name: 'desk_snap_zodiac',
+    type: 'png',
+    path: 'https://ucarecdn.com/aa644a30-8139-4b38-9ad9-aa08d3819868/desk_snap_zodiac.png'
+  },
+  {
+    name: 'desk_snap_health_2',
+    type: 'png',
+    path: 'https://ucarecdn.com/5a596ec0-4441-4ae9-a17c-b0a7afa3962b/desk_snap_health_2.png'
+  },
+  {
+    name: 'desk_snap_diet_2',
+    type: 'png',
+    path: 'https://ucarecdn.com/94b23e58-6141-4098-8cb6-be01b9f00440/desk_snap_diet_2.png'
+  },
+  {
+    name: 'desk_snap_zodiac_2',
+    type: 'png',
+    path: 'https://ucarecdn.com/09bf9aa8-d1cb-43fa-932d-e03fec12220f/desk_snap_zodiac_2.png'
+  },
+]
+
+const aboutPages = [
+    {
+      name: 'health',
+      imgPath: 'https://ucarecdn.com/553502e6-7b0a-46c7-954d-f9009e488e61/mobile_health.png',
+      link: '/health',
+      description: 'This is a health and fitness tool that allows users to calculate and track their daily water intake and body mass index (BMI). The user inputs their weight and height into the designated fields, and the web page calculates their daily water intake and BMI based on the provided information. The output is displayed on the page in an easy-to-read format, allowing the user to track their progress over time. This tool can be used by individuals looking to improve their health and fitness by monitoring their water intake and BMI.'
+    },
+    {
+      name: 'diet',
+      imgPath: 'https://ucarecdn.com/1a543739-e920-4868-b6b5-36f3ae943594/mobile_diet.png',
+      link: '/blooddiet',
+      description: 'This is a nutrition tool that allows users to input their blood type and receive a personalized list of foods that are beneficial, harmful, or neutral to their health. The user selects their blood type from a list of options, and the web page generates a list of foods that are recommended, to be avoided, or that have no impact on their health. This information is presented in a clear and easy-to-understand format, allowing the user to make informed decisions about what to eat based on their individual blood type. This tool can be used by individuals looking to optimize their nutrition and improve their overall health and wellbeing.'
+    },
+    {
+      name: 'horscope',
+      imgPath: 'https://ucarecdn.com/17fb9f37-b91d-49b7-8a1f-3d4377842f48/mobile_horscope.png',
+      link: '/horscope',
+      description: 'This is an astrology and personalization tool that allows users to input their date of birth and receive personalized information about their life span and astrological sign. The user enters their birth date, and the web page calculates the number of years, months, days, hours, minutes, and seconds the user has been alive. Additionally, the web page displays the users astrological sign, or zodiac information, based on their birth date. This information is presented in a visually appealing and easy-to-understand format, allowing the user to gain insights and learn more about themselves. This tool can be used by individuals looking to explore their astrological sign and gain a deeper understanding of their life span.'
+    }
+]
 const data = {
   name: "daf-express-api",
   label: "Daf Express API",
@@ -1869,6 +1923,14 @@ const data = {
 router.get('/', (req, res) => {
   res.json(data)
 });
+
+router.get('/asset/carouselimages', (req, res) => {
+  res.json(carouselImages)
+})
+
+router.get('/aboutdata', (req, res) => {
+  res.json(aboutPages)
+})
 
 router.get('/hydrationtips', (req, res) => {
     res.json(hydrationTips)
