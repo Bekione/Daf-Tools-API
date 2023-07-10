@@ -9,6 +9,12 @@ Express Application Programming Interface for the DAF Tools fullstack project
 
 ## Currently all the API paths have `GET` method
 
+### `/asset/carouselimages`
+- `GET /asset/carouselimages` - Returns a list of daftools page snapshots.
+
+### `/aboutdata`
+- `GET /aboutdata` - Returns a list of data about daftools pages with mobile snapshots.
+
 ### `/foodlists`
 - `GET /foodlists` - Returns a list of foods for each blood type.
 
