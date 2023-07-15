@@ -1857,8 +1857,8 @@ const zodiacUiData = [
   },
   {
     emoji: "♑︎",
-    color: "brown",
-    dark_color: "red"
+    color: "#a52a2a",
+    dark_color: "#862121"
   },
   {
     emoji: "♒︎",
