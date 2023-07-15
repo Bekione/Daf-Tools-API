@@ -44,6 +44,9 @@ Express Application Programming Interface for the DAF Tools fullstack project
 - serverless-http
 - cors
 - netlify-cli
+
+## Deploy status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/baf14ebf-fe8b-4005-bf50-44e10ca5e282/deploy-status)](https://app.netlify.com/sites/daf-express-api/deploys)
   
 ## Running the Project
 
