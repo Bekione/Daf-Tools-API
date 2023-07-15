@@ -1756,6 +1756,21 @@ const zodiacSignsInfo = [
     planet: 'Saturn', 
     matchs: ['Taurus', 'Scorpio', 'Pisces'], 
     startDate: '12-22', 
+    endDate: '12-31',
+    traits: {
+        good: ["ambitious", "responsible", "disciplined", "practical", "self-controlled"],
+        bad: ["cold", "calculating", "rigid", "pessimistic", "controlling"]
+    },
+    description: 'Capricorn is the tenth sign of the zodiac and is represented by the symbol of the mountain goat. Capricorns are known for their ambition, discipline, and practicality. They are often seen as hardworking and responsible, with a natural talent for achieving their goals. Capricorn is ruled by Saturn, the planet of structure and authority, which gives Capricorns their sense of responsibility and their desire for order and stability. They are also associated with the earth element, which makes them grounded, reliable, and often traditional. Capricorns value hard work, achievement, and respectability, and often have a talent for leadership and management. They have a deep sense of duty and often take on heavy responsibilities willingly, but they can also be too focused on work and achievement and need to learn to balance their personal and professional lives. Capricorns are known for their patience, perseverance, and practicality, and often have a talent for building lasting structures and systems. Overall, Capricorn is a sign that values hard work, achievement, and responsibility, and seeks to build a stable and secure foundation for themselves and those around them.'  
+  },
+  { 
+    id: 10, 
+    name: 'Capricorn', 
+    symbol: 'Sea-Goat',
+    element: 'Earth',
+    planet: 'Saturn', 
+    matchs: ['Taurus', 'Scorpio', 'Pisces'], 
+     startDate: '01-01',
     endDate: '01-19', 
     traits: {
         good: ["ambitious", "responsible", "disciplined", "practical", "self-controlled"],
