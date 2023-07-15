@@ -2,7 +2,7 @@
 Express Application Programming Interface for the DAF Tools fullstack project
 
 ## Base URL
-: _https://daf-express-api.netlify.app/.netlify/functions/api_
+: _https://api-daftools.netlify.app/.netlify/functions/api_
 
 ## API Paths
 #### Here are some of the API paths available in this project:
@@ -46,7 +46,7 @@ Express Application Programming Interface for the DAF Tools fullstack project
 - netlify-cli
 
 ## Deploy status
-[![Netlify Status](https://api.netlify.com/api/v1/badges/baf14ebf-fe8b-4005-bf50-44e10ca5e282/deploy-status)](https://app.netlify.com/sites/daf-express-api/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/baf14ebf-fe8b-4005-bf50-44e10ca5e282/deploy-status)](https://app.netlify.com/sites/api-daftools/deploys)
   
 ## Running the Project
 
